@@ -21,7 +21,7 @@ function ToggleManue() {
           <AvatarFallback>ER</AvatarFallback>
         </Avatar>
 
-        <div className="flex gap-10 text-lg text-gray-600">
+        <div className="flex gap-10 text-sm md:text-xl text-gray-600">
           {tabs.map((tab) => (
             <button
               key={tab}

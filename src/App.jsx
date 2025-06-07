@@ -1,7 +1,6 @@
 
 import Footer from "./components/pages/footer/Footer"
 import Home from "./components/pages/home/Home"
-import About from "./components/pages/main/about/About"
 import ToggleManue from "./components/pages/main/ToggleManue"
 import Top from "./components/pages/top/Top"
 import { Separator } from "./components/ui/separator"
@@ -18,8 +17,14 @@ function App() {
       <div className="flex justify-center">
         <Separator height="2px" width="96%" className="bg-gray-300 " />
       </div>
+      <div className="flex justify-center mt-12">
+        <Separator height="2px" width="96%" className="bg-gray-300 " />
+      </div>
       <ToggleManue />
       <div className="flex justify-center">
+        <Separator height="2px" width="96%" className="bg-gray-300 " />
+      </div>
+      <div className="flex justify-center mt-12">
         <Separator height="2px" width="96%" className="bg-gray-300 " />
       </div>
       <Footer />
