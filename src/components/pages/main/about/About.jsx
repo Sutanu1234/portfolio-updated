@@ -84,7 +84,7 @@ function About() {
                   <p className="text-md font-medium">{card.name}</p>
                 </div>
                 <Separator className="bg-gray-300 mt-2 mb-2" />
-                <p className={`text-sm whitespace-pre-line ${textColor} overflow-scroll`}>
+                <p className={`text-sm whitespace-pre-line ${textColor} lg:overflow-auto`}>
                   {card.value}
                 </p>
               </div>
