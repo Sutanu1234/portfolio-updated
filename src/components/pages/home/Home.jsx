@@ -6,9 +6,9 @@ function Home() {
   let itemsTags = ["#UI/UX", "#DESIGN", "#WEB", "#DEVELOPMENT", "#MOBILE"];
 
   return (
-    <div className="p-4 flex flex-col md:flex-row justify-between items-center gap-8">
+    <div className="p-4 flex flex-col md:flex-row items-center justify-between gap-8">
       {/* Left Section */}
-      <div className="flex flex-col items-center md:items-start justify-around w-full md:w-1/2 gap-6 text-center md:text-left">
+      <div className="flex flex-col h-full items-center justify-between md:items-start w-full gap-6 text-center md:text-left">
         {/* Title */}
         <div className="flex flex-col gap-4 items-center md:items-start">
           <div className="flex flex-wrap items-center justify-center md:justify-start gap-2">
@@ -43,7 +43,7 @@ function Home() {
           </p>
           <Button
             variant="ghost"
-            className="text-sm sm:text-lg px-6 sm:px-8 py-4 sm:py-6 border-2 border-gray-400 rounded-full hover:bg-muted transition-all"
+            className="text-sm md:mt-16 sm:text-lg px-6 sm:px-8 py-4 sm:py-6 border-2 border-gray-400 rounded-full hover:bg-muted transition-all"
           >
             🔻 Scroll Down 🔻
           </Button>
@@ -51,11 +51,11 @@ function Home() {
       </div>
 
       {/* Right Section: Image */}
-      <div className="w-full md:w-1/2 flex justify-center">
+      <div className="w-full flex justify-center">
         <img
           src="/portfolio.svg"
           alt="Portfolio Illustration"
-          className="w-full max-w-[500px] mx-auto"
+          className="w-full max-w-[560px] mx-auto"
         />
       </div>
     </div>

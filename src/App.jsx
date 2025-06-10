@@ -8,7 +8,7 @@ import { Separator } from "./components/ui/separator"
 function App() {
 
   return (
-    <>
+    <div className="">
       <Top />
       <div className="flex items-center justify-center">
         <Separator height="2px" width="96%" className="bg-gray-300 " />
@@ -28,7 +28,7 @@ function App() {
         <Separator height="2px" width="96%" className="bg-gray-300 " />
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 

@@ -28,7 +28,7 @@ function About() {
     <div className="flex flex-col lg:flex-row gap-6 p-4">
       {/* Left image block with blur and overlay text */}
       <div className="w-full lg:w-1/2">
-        <div className="relative h-[300px] sm:h-[400px] rounded-xl overflow-hidden">
+        <div className="relative sm:h-[400px] md:h-[560px] lg:h-full rounded-xl overflow-hidden">
           <div
             className="absolute inset-0 bg-cover bg-top"
             style={{ backgroundImage: "url('/me2.jpg')" }}
@@ -68,7 +68,7 @@ function About() {
 
         <h2 className="text-3xl sm:text-4xl font-semibold">Get In Touch</h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-2">
           {cards.map((card, index) => {
             const isEmail = card.name === "Email";
             const textColor = isEmail ? "text-black" : "text-white";
@@ -84,7 +84,7 @@ function About() {
                   <p className="text-md font-medium">{card.name}</p>
                 </div>
                 <Separator className="bg-gray-300 mt-2 mb-2" />
-                <p className={`text-sm whitespace-pre-line ${textColor}`}>
+                <p className={`text-sm whitespace-pre-line ${textColor} overflow-scroll`}>
                   {card.value}
                 </p>
               </div>
