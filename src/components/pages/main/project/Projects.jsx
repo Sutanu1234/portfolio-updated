@@ -59,12 +59,13 @@ function Projects() {
                         ))}
                       </div>
                       <div className="flex gap-2 justify-between items-center w-full">
-                        <Button className="rounded-full w-1/2">
+                        <Button className="rounded-full w-1/2" onClick={() => window.open(project.code, "_blank")}>
                           View Code
                         </Button>
                         <Button
                           className="rounded-full w-1/2 bg-transparent border-2 border-gray-400"
                           variant="outline"
+                          onClick={() => window.open(project.demo, "_blank")}
                         >
                           Live Demo
                         </Button>
