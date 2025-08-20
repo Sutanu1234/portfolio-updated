@@ -110,7 +110,7 @@ function Resume() {
             <div>
               <h2 className="text-lg font-semibold text-gray-600">IIIT Kalyani</h2>
               <p className="text-2xl font-semibold">B.Tech in CSE</p>
-              <p className="text-sm font-medium text-gray-600">CGPA - 7.3</p>
+              <p className="text-sm font-medium text-gray-600">CGPA - 7.5</p>
             </div>
             <div>
               <Separator className="bg-gray-400" />
