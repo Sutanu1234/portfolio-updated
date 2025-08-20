@@ -72,21 +72,7 @@ export const projects = [
     demo: "#"
   },
   {
-    status: "Ongoing",
-    name: "SalonConnect – Microservices-Based Salon Booking Platform",
-    tech: "Node.js, Express.js, MongoDB, JWT, REST APIs, Microservices Architecture",
-    des: [
-      "Designed a 6-microservice architecture (User, Salon, Booking, Category, Payment, Owner) enabling 100% modular scalability.",
-      "Implemented JWT authentication and role-based access control for 3 user types – clients, salon owners, and admins.",
-      "Built booking workflows supporting end-to-end scheduling, slot management, and payments with <200ms API response.",
-      "Developed MongoDB schemas covering 5+ entities (users, salons, categories, bookings, payments) ensuring data consistency."
-    ],
-    time: "2025",
-    code: "https://github.com/Sutanu1234/Salon-Booking",
-    demo: "#"
-  },
-  {
-    status: "Ongoing",
+    status: "Complete",
     name: "ShopSphere – Full-Stack E-Commerce Platform",
     tech: "React.js, Redux, Spring Boot, MySQL, Spring Security, JWT, Razorpay",
     des: [
@@ -101,7 +87,7 @@ export const projects = [
     demo: "#"
   },
   {
-    status: "Ongoing",
+    status: "Complete",
     name: "VideoStream – Adaptive Video Streaming Platform",
     tech: "React, Spring Boot, MySQL, FFmpeg, HLS (HTTP Live Streaming)",
     des: [
@@ -115,7 +101,7 @@ export const projects = [
     demo: "#"
   },
   {
-    status: "Ongoing",
+    status: "Complete",
     name: "FileShare – Secure File Sharing Platform",
     tech: "React, Spring Boot, MongoDB, Tailwind CSS, Clerk Auth, JWT, Razorpay",
     des: [
