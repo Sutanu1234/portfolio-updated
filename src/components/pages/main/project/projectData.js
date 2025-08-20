@@ -82,7 +82,7 @@ export const projects = [
       "Built order workflows including add-to-cart, order tracking, reviews/ratings, and admin status updates.",
       "Optimized MySQL schemas for products, users, and orders ensuring data consistency and scalability."
     ],
-    time: "2025",
+    time: "Septembor 2024",
     code: "https://github.com/Sutanu1234/ecom-website",
     demo: "#"
   },
@@ -96,13 +96,13 @@ export const projects = [
       "Implemented chunked streaming with HLS .m3u8 playlists and .ts segments to enable efficient playback and seeking for large videos.",
       "Developed a React-based frontend to manage playback seamlessly and reduce lag during video skipping."
     ],
-    time: "2025",
+    time: "June 2025",
     code: "https://github.com/Sutanu1234/VideoStream",
     demo: "#"
   },
   {
     status: "Complete",
-    name: "FileShare – Secure File Sharing Platform",
+    name: "FileShare - Secure File Sharing Platform",
     tech: "React, Spring Boot, MongoDB, Tailwind CSS, Clerk Auth, JWT, Razorpay",
     des: [
       "Built a file-sharing platform with upload limits (5 files at a time) and a credit system (1 credit per upload, purchasable via Razorpay).",
@@ -110,7 +110,7 @@ export const projects = [
       "Implemented privacy controls: files private by default, with option to make public and generate shareable download links.",
       "Developed user dashboard to view/delete files, manage credits, and track transaction history."
     ],
-    time: "2025",
+    time: "August 2025",
     code: "https://github.com/Sutanu1234/FileShare",
     demo: "#"
   }
