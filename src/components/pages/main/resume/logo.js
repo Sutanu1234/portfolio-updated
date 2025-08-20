@@ -43,7 +43,7 @@ export const logoLink = [
     },
 ];
 
-export const skills = ["#Problem-Solving", "#Team Collaboration", "#Time Management", "#Adaptability", "#Creativity", "#xAttention to Detail"];
+export const skills = ["#Problem-Solving", "#Team Collaboration", "#Time Management", "#Adaptability", "#Creativity", "#Attention to Detail"];
 
 
 export const extras = [
