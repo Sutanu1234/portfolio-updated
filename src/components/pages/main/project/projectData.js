@@ -70,5 +70,62 @@ export const projects = [
     time: "July 2025",
     code: "https://github.com/Sutanu1234/Travel-helper",
     demo: "#"
+  },
+  {
+    status: "Ongoing",
+    name: "SalonConnect – Microservices-Based Salon Booking Platform",
+    tech: "Node.js, Express.js, MongoDB, JWT, REST APIs, Microservices Architecture",
+    des: [
+      "Designed a 6-microservice architecture (User, Salon, Booking, Category, Payment, Owner) enabling 100% modular scalability.",
+      "Implemented JWT authentication and role-based access control for 3 user types – clients, salon owners, and admins.",
+      "Built booking workflows supporting end-to-end scheduling, slot management, and payments with <200ms API response.",
+      "Developed MongoDB schemas covering 5+ entities (users, salons, categories, bookings, payments) ensuring data consistency."
+    ],
+    time: "2025",
+    code: "https://github.com/Sutanu1234/Salon-Booking",
+    demo: "#"
+  },
+  {
+    status: "Ongoing",
+    name: "ShopSphere – Full-Stack E-Commerce Platform",
+    tech: "React.js, Redux, Spring Boot, MySQL, Spring Security, JWT, Razorpay",
+    des: [
+      "Developed a full-stack e-commerce system with 2 roles: Customer (browse, filter, buy) and Admin (manage products, orders).",
+      "Implemented advanced search, sorting, pagination, and filters (color, size, discount) enhancing product discovery by 40%.",
+      "Integrated Razorpay payment gateway with secure checkout, Spring Security, and JWT authentication.",
+      "Built order workflows including add-to-cart, order tracking, reviews/ratings, and admin status updates.",
+      "Optimized MySQL schemas for products, users, and orders ensuring data consistency and scalability."
+    ],
+    time: "2025",
+    code: "https://github.com/Sutanu1234/ecom-website",
+    demo: "#"
+  },
+  {
+    status: "Ongoing",
+    name: "VideoStream – Adaptive Video Streaming Platform",
+    tech: "React, Spring Boot, MySQL, FFmpeg, HLS (HTTP Live Streaming)",
+    des: [
+      "Built a Spring Boot backend to upload videos, extract metadata, and store records in MySQL.",
+      "Transcoded videos using FFmpeg into multiple resolutions (360p, 720p, 1080p) and generated HLS segments for adaptive streaming.",
+      "Implemented chunked streaming with HLS .m3u8 playlists and .ts segments to enable efficient playback and seeking for large videos.",
+      "Developed a React-based frontend to manage playback seamlessly and reduce lag during video skipping."
+    ],
+    time: "2025",
+    code: "https://github.com/Sutanu1234/VideoStream",
+    demo: "#"
+  },
+  {
+    status: "Ongoing",
+    name: "FileShare – Secure File Sharing Platform",
+    tech: "React, Spring Boot, MongoDB, Tailwind CSS, Clerk Auth, JWT, Razorpay",
+    des: [
+      "Built a file-sharing platform with upload limits (5 files at a time) and a credit system (1 credit per upload, purchasable via Razorpay).",
+      "Integrated Clerk authentication with JWT-based sessions for secure user access.",
+      "Implemented privacy controls: files private by default, with option to make public and generate shareable download links.",
+      "Developed user dashboard to view/delete files, manage credits, and track transaction history."
+    ],
+    time: "2025",
+    code: "https://github.com/Sutanu1234/FileShare",
+    demo: "#"
   }
 ];
