@@ -27,8 +27,8 @@ function About() {
   return (
     <div className="flex flex-col lg:flex-row gap-6 p-4">
       {/* Left image block with blur and overlay text */}
-      <div className="w-full lg:w-1/2 h-full">
-        <div className="relative h-[320px] sm:h-[400px] md:h-[560px] lg:h-full rounded-xl overflow-hidden">
+      <div className="w-full lg:w-1/2">
+        <div className="relative min-h-[300px] sm:h-[900px] md:h-[560px] lg:h-full rounded-xl overflow-hidden">
           <div
             className="absolute inset-0 bg-cover bg-top"
             style={{ backgroundImage: "url('/me2.jpg')" }}
@@ -43,7 +43,7 @@ function About() {
       </div>
 
       {/* Right content block */}
-      <div className="flex flex-col w-full lg:w-1/2 gap-8 justify-between h-full">
+      <div className="flex flex-col w-full lg:w-1/2 gap-8 justify-between">
         <h2 className="text-3xl sm:text-4xl font-semibold">Introduction</h2>
 
         <div className="p-4 border-2 rounded-3xl border-gray-600">
