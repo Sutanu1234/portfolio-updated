@@ -27,8 +27,8 @@ function About() {
   return (
     <div className="flex flex-col lg:flex-row gap-6 p-4">
       {/* Left image block with blur and overlay text */}
-      <div className="w-full lg:w-1/2">
-        <div className="relative sm:h-[400px] md:h-[560px] lg:h-full rounded-xl overflow-hidden">
+      <div className="w-full lg:w-1/2 h-full">
+        <div className="relative h-[320px] sm:h-[400px] md:h-[560px] lg:h-full rounded-xl overflow-hidden">
           <div
             className="absolute inset-0 bg-cover bg-top"
             style={{ backgroundImage: "url('/me2.jpg')" }}
@@ -43,16 +43,21 @@ function About() {
       </div>
 
       {/* Right content block */}
-      <div className="flex flex-col w-full lg:w-1/2 gap-8 justify-between">
+      <div className="flex flex-col w-full lg:w-1/2 gap-8 justify-between h-full">
         <h2 className="text-3xl sm:text-4xl font-semibold">Introduction</h2>
 
         <div className="p-4 border-2 rounded-3xl border-gray-600">
           <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">
-            A passionate software engineer with a strong background in Computer Science.
+            A passionate software engineer with a strong background in Computer
+            Science.
           </h2>
           <div className="flex flex-col md:flex-row gap-4">
             <p className="text-md text-gray-600 text-justify">
-              Aspiring software developer skilled in competitive programming, MERN stack development, and UI/UX design. Solved 400+ problems on LeetCode, built scalable applications, and designed intuitive interfaces. Seeking to contribute to innovative projects while advancing technical and creative expertise.
+              Aspiring software developer skilled in competitive programming,
+              MERN stack development, and UI/UX design. Solved 400+ problems on
+              LeetCode, built scalable applications, and designed intuitive
+              interfaces. Seeking to contribute to innovative projects while
+              advancing technical and creative expertise.
             </p>
             <div className="w-full md:w-1/2">
               <img
@@ -84,7 +89,15 @@ function About() {
                   <p className="text-md font-medium">{card.name}</p>
                 </div>
                 <Separator className="bg-gray-300 mt-2 mb-2" />
-                <p className={`text-sm whitespace-pre-line ${textColor} lg:overflow-auto`}>
+                <p
+                  className={`text-sm ${textColor} 
+                  ${
+                    isEmail
+                      ? "truncate sm:whitespace-normal sm:whitespace-pre-line"
+                      : "whitespace-pre-line"
+                  } 
+                  lg:overflow-auto`}
+                >
                   {card.value}
                 </p>
               </div>
